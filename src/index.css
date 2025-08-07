@@ -1,0 +1,17 @@
+@import "tailwindcss";
+.sidebar__link{
+    display: block;
+    padding:  6px 0;
+    text-decoration: none;
+  
+    margin-bottom: 4px;
+    border-radius: 6px;
+    color: #fff;
+    transition: .3s;
+}
+.sidebar__link.active{
+  background: white;
+    color: dodgerblue;
+    padding: 6px;
+
+}
